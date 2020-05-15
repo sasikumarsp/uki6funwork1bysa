@@ -45,9 +45,9 @@ $(document).ready(function() {
   });
   
   
- 
-// {/* <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/569398809&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/srinivas-koda" title="Srinivas Koda" target="_blank" style="color: #cccccc; text-decoration: none;">Srinivas Koda</a> · <a href="https://soundcloud.com/srinivas-koda/petta-bgm" title="Petta - BGM" target="_blank" style="color: #cccccc; text-decoration: none;">Petta - BGM</a></div> */}
-  SC.stream('/tracks/569398809',function(sound){
+ //udhunkada sanku
+  //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164726329&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+  SC.stream('/tracks/164726329',function(sound){
        $('#start-r4').click(function(e) {
               e.preventDefault();
               sound.start();
@@ -58,9 +58,9 @@ $(document).ready(function() {
            });
      });
      
-   
-//      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/283781104&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sriramk152" title="sriramk152" target="_blank" style="color: #cccccc; text-decoration: none;">sriramk152</a> · <a href="https://soundcloud.com/sriramk152/saithan-theme-vijay-antony-arundhathi-nair-pradeep-krishnamoorthy" title="Saithan - Theme - Vijay Antony, Arundhathi Nair - Pradeep Krishnamoorthy" target="_blank" style="color: #cccccc; text-decoration: none;">Saithan - Theme - Vijay Antony, Arundhathi Nair - Pradeep Krishnamoorthy</a></div>
-     SC.stream('/tracks/283781104',function(sound){
+ // Why this kolaveri
+// <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/44996642&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe> 
+  SC.stream('/tracks/44996642',function(sound){
        $('#start-r5').click(function(e) {
               e.preventDefault();
               sound.start();
