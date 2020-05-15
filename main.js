@@ -3,10 +3,10 @@ SC.initialize({
 });
 
 
-
-
+//kanave kanave
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73473040&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 $(document).ready(function() {
-  SC.stream('/tracks/40388193',function(sound){
+  SC.stream('/tracks/73473040',function(sound){
     $('#start-r1').click(function(e) {
            e.preventDefault();
            sound.start();
